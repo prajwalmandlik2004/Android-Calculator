@@ -10,10 +10,11 @@
     <item>
         <shape>
             <solid
-                android:color="#FF1DB71D" />
+
+                android:color="#11009E" />
             <stroke
                 android:width="0.1dp"
-                android:color="#c6c6c6" />
+                android:color="#11009E" />
 
 
         </shape>

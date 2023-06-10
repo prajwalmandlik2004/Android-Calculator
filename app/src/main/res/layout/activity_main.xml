@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FFF"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -15,6 +16,7 @@
         <EditText
             android:id="@+id/input_box"
             android:layout_width="match_parent"
+            android:layout_marginRight="12dp"
             android:layout_height="130dp"
             android:paddingTop="50dp"
             android:gravity="right"
@@ -27,9 +29,10 @@
             android:id="@+id/result_box"
             android:layout_width="match_parent"
             android:layout_height="80dp"
+            android:layout_marginRight="12dp"
             android:gravity="right"
             android:background="@color/input_backg_color"
-            android:textSize="20dp" />
+            android:textSize="30dp" />
 
     </LinearLayout>
 
@@ -43,6 +46,7 @@
         <ImageButton
             android:id="@+id/butdelet"
             android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_backspace_button"
             app:srcCompat="@drawable/ic_backspace_button" />
@@ -67,7 +71,7 @@
                 android:background="@drawable/number_button"
                 android:text="7"
                 android:onClick="onClickNumber"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/but8"
@@ -77,7 +81,7 @@
                 android:background="@drawable/number_button"
                 android:text="8"
                 android:onClick="onClickNumber"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/but9"
@@ -87,7 +91,7 @@
                 android:background="@drawable/number_button"
                 android:text="9"
                 android:onClick="onClickNumber"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/butadd"
@@ -97,7 +101,7 @@
                 android:background="@drawable/operation_button"
                 android:text="+"
                 android:onClick="onClickOperator"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
         </LinearLayout>
 
@@ -116,7 +120,7 @@
                 android:background="@drawable/number_button"
                 android:text="4"
                 android:onClick="onClickNumber"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/but5"
@@ -126,7 +130,7 @@
                 android:background="@drawable/number_button"
                 android:text="5"
                 android:onClick="onClickNumber"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/but6"
@@ -136,7 +140,7 @@
                 android:background="@drawable/number_button"
                 android:text="6"
                 android:onClick="onClickNumber"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/butmin"
@@ -146,7 +150,7 @@
                 android:background="@drawable/operation_button"
                 android:text="-"
                 android:onClick="onClickOperator"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
         </LinearLayout>
 
@@ -164,7 +168,7 @@
                 android:background="@drawable/number_button"
                 android:text="1"
                 android:onClick="onClickNumber"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/but2"
@@ -174,7 +178,7 @@
                 android:background="@drawable/number_button"
                 android:text="2"
                 android:onClick="onClickNumber"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/but3"
@@ -184,7 +188,7 @@
                 android:background="@drawable/number_button"
                 android:text="3"
                 android:onClick="onClickNumber"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/butmul"
@@ -194,7 +198,7 @@
                 android:background="@drawable/operation_button"
                 android:text="x"
                 android:onClick="onClickOperator"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
         </LinearLayout>
 
@@ -212,7 +216,7 @@
                 android:background="@drawable/operation_button"
                 android:text="C"
                 android:onClick="onClearButton"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/butzero"
@@ -222,7 +226,7 @@
                 android:background="@drawable/number_button"
                 android:onClick="onClickNumber"
                 android:text="0"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/butdiv"
@@ -232,7 +236,7 @@
                 android:background="@drawable/operation_button"
                 android:text="\u00F7"
                 android:onClick="onClickOperator"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/butequal"
@@ -243,7 +247,7 @@
                 android:text="="
                 android:textColor="@color/equl_text_color"
                 android:onClick="equalresult"
-                android:textSize="24sp"/>
+                android:textSize="30sp"/>
 
         </LinearLayout>
 

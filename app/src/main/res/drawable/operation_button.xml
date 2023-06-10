@@ -3,17 +3,17 @@
     <item android:state_pressed="true" >
         <shape>
             <solid
-                android:color="#c4deef" />
+                android:color="#c4deef"/>
 
         </shape>
     </item>
     <item>
         <shape>
             <solid
-                android:color="#FFEDEBEB" />
+                android:color="#FFF" />
             <stroke
                 android:width="0.1dp"
-                android:color="#c6c6c6" />
+                android:color="#FFF" />
 
 
         </shape>
